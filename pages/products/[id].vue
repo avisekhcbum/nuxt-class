@@ -1,11 +1,11 @@
 <template>
 <div>
     <h1>Product Detailed Page</h1>
-    <h2>The Product Number is {{ route.params.id }}</h2>
+    <h2>The product number is {{ route.params.id }}</h2>
 </div>
 </template>
 
-<script>
+<script setup>
 const route = useRoute();
 </script>
 

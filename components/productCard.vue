@@ -1,6 +1,6 @@
 <template>
 <div>
-    <div class="card" style="width: 18rem;">
+    <div class="card">
         <div class="image-box">
             <img :src="product.images[0]" class="card-img-top" alt="...">
         </div>

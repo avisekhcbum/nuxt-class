@@ -4,7 +4,9 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-md-3" v-for="(p, index) in product" :key="index">
-                    <productCard :product="p" />
+                    <nuxt-link :to="'/products/${p.id}'" style="text-decoration:none">
+                        <productCard :product="p" />
+                    </nuxt-link>
                 </div>
             </div>
         </div>
@@ -13,8 +15,8 @@
 </template>
 
 <script>
-const {data: product} = await useFetch("https://api.escuelajs.co/api/v1/products");
-console.warn(data.data._rawValue);
+const {data:product} = await useFetch("https://api.escuelajs.co/api/v1/products");
+   
 </script>
 
 <style scoped>

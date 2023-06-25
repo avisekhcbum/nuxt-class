@@ -20,7 +20,7 @@
                             <div class="row">
                                 <div col-md-4>
                                     <div class="card">
-                                        <img src="https://cdn.pixabay.com/photo/2023/05/31/12/20/car-8031261__340.jpg" alt="">
+                                        <img src="https://cdn.pixabay.com/photo/2023/05/31/12/20/car-8031261__340.jpg" alt="" width="400px">
                                         <h1>this is a picture of a car</h1>
                                     </div>
                                 </div>
@@ -29,7 +29,7 @@
                                     <div class="card">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <img src="https://cdn.pixabay.com/photo/2023/05/29/20/55/mountains-8027230_640.jpg" alt="">
+                                                <img src="https://cdn.pixabay.com/photo/2023/05/29/20/55/mountains-8027230_640.jpg" alt="" width="400px">
                                             </div>
                                             <div class="col-md-6">
                                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia ratione cumque dolorum dignissimos deserunt qui deleniti tempora, quaerat autem molestiae nihil debitis ea accusamus explicabo possimus similique doloribus, sunt delectus!</p>
